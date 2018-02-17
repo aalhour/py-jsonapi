@@ -1,11 +1,10 @@
-py-jsonapi
-==========
+py-jsonapi (DEPRECATED)
+=======================
 
-.. note::
-
-    **This library is under active development.**
-    **If you have any suggestions or found bugs, please create a new issue.**
-
+**>> This library is no longer maintained.<<**
+Traffic indicates not a large user base and I don't use this library myself
+anymore. If you want to use it in the future, then you should maintain your
+own fork. I will remove *py-jsonapi* from PyPi and GitHub at 1.1.2019.
 
 This library is a toolkit for building a http://jsonapi.org/ compliant API. It
 has built in support for many web frameworks and database drivers:

@@ -27,3 +27,12 @@ from . import base
 from . import asyncio
 from . import marker
 from . import version
+
+
+import warnings
+warnings.warn(
+    "*py-jsonapi* is deprecated and will be removed from PyPi and"\
+    " GitHub at 1.1.2019. Please create your own fork if you want to keep"\
+    " using this library.",
+    DeprecationWarning
+)
