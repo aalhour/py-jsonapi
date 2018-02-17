@@ -260,7 +260,7 @@ def assert_resource_identifier_object(d, source_pointer="/"):
         )
 
     if "meta" in d:
-        self.assert_meta_object(d["meta"], source_pointer + "meta/")
+        assert_meta_object(d["meta"], source_pointer + "meta/")
 
     if not "type" in d:
         raise InvalidDocument(

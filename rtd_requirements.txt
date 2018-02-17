@@ -1,6 +1,6 @@
 # This requirements file is only used by readthedocs.org, so that it can
 # include the flask, sqlalchemy, ... packages without an ImportError.
-cached_property
+cached-property
 flask
 sqlalchemy
 tornado

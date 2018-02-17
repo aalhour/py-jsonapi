@@ -82,7 +82,7 @@ def ensure_identifier_object(obj):
     else:
         schema = obj._jsonapi["schema"]
         d = OrderedDict([
-            ("typename", schema.typename),
+            ("type", schema.typename),
             ("id", schema.id_attribute.get(obj))
         ])
         return d

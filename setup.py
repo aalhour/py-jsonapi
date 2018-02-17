@@ -63,7 +63,7 @@ setup(
     ],
     license = license_,
     install_requires = [
-        "cached_property"
+        "cached-property"
     ],
     include_package_data = True,
     classifiers = [
